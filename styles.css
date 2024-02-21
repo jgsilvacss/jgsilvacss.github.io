@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto" , sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 684px;
+    background: #D74949;
+    align-items: center;
+  }
+
+  .Rectangle2 {
+    width: 1110px;
+    height: 615px;
+    left: 165px;
+    top: 0px;
+    background: #F3F3F3;
+  }
+  footer {
+    display: flex;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 615px;
+    background: #3A3A3A;
+    color: #F3F3F3;
+    justify-content: center;
+    align-items: center;
+  }
+   .h1 {
+    width: 64px;
+    height: 16px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  .h2 {
+    width: 1009px;
+    height: 19px;
+    margin-left: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: right;
+    letter-spacing: 7%;
+    color: #000000;
+  }
+  .p {
+    width: 1009px;
+    height: 23px;
+    margin-left: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .p span{
+    color: #8F2727
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+
+  .card .photo {
+    width: 200px;
+    height: 185px;
+    left: 215px;
+    top: 215px;
+    background: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .name {
+    width: 64px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+
+  .position {
+    width: 152px;
+    height: 16px;
+    margin-left: 20px;
+    top: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    width: 44px;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content:  space-between;
+  }
+  .linkedin {
+    width: 18px;
+    height: 18px;
+    background: url(linkedin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .whatsapp {
+    width: 18px;
+    height: 18px;
+    background: url(whatsapp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   /* footer {
+    width: 176px;
+    height: 16px;
+    left: 632px;
+    top: 642px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  } */
+/* 
+  .Rectangle2 {
+    position: absolute;
+    width: 1110px;
+    height: 615px;
+    left: 165px;
+    top: 0px;
+    background: #F3F3F3;
+  }
+  
+  .Rectangle2 h1 {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 215px;
+    top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+
+  .Rectangle2 H2 {
+    position: absolute;
+    width: 1009px;
+    height: 19px;
+    left: 215px;
+    top: 128px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.07em;
+    color: #000000;
+  }
+  
+
+  .Rectangle2 .p {
+    position: absolute;
+    width: 1009px;
+    height: 23px;
+    left: calc(50% - 1009px/2 - 0.5px);
+    top: 154px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  
+    .card {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 215px;
+    top: 215px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  
+  .card .photo {
+
+    width: 200px;
+    height: 185px;
+    left: 215px;
+    top: 215px;
+    background: url(image.png);
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .card .name {
+    width: 64px;
+    height: 16px;
+    left: 235px;
+    top: 420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+
+  .card .position {
+    width: 152px;
+    height: 16px;
+    left: 235px;
+    top: 439px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .card .whatsapp {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-left: 261px;
+    top: 465px;
+    background: url(whatsapp.png);
+  }
+  
+  .card .linkedin {
+    width: 18px;
+    height: 18px;
+    left: 235px;
+    top: 465px;
+    background: url(linkedin.png);
+  }
+  
+
+  .footer {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 615px;
+    background: #3A3A3A;
+  }
+
+  .footer footer {
+    position: absolute;
+    width: 176px;
+    height: 16px;
+    left: 632px;
+    top: 642px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+   */
